@@ -9,7 +9,7 @@
 /* -----Nav----- */
 
 .nav {
-  height: 80px;
+  height: 60px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -17,21 +17,46 @@
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 
+.nav-left {
+  display: flex;
+  align-items: center;
+}
+
+.nav-left > h3 {
+  margin-left: 10px;
+  font-size: 22px;
+}
+
 .nav-right {
   display: flex;
-  
 }
 
 .nav-menu {
   display: flex;
 }
 
-.nav-menu > p{
-  margin-left: 10px;
-  font-size: 18px;
-  color: rgba(4, 17, 29, 0.75);
+.nav-menu > p {
+  margin-left: 20px;
+  font-size: 16px;
+  color: rgba(4, 1, 29, 0.75);
 }
 
 .nav-menu-icon {
-  margin-left: 10px;
+  margin-left: 20px;
+  color: rgba(4, 1, 29, 0.75);
+}
+
+.search-box {
+  display: flex;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgb(229, 232, 235);
+  border-radius: 10px;
+  padding: 6px;
+}
+
+.search-box > input {
+  outline: none;
+  border: none;
+  background: none;
 }
