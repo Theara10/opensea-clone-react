@@ -17,7 +17,7 @@ function Navbar() {
       <div className="nav-right">
         <div className="search-box">
           <SearchIcon />
-          <input placeholder="search-input" />
+          <input placeholder="Search items, collections and accounts" />
         </div>
 
         <div className="nav-menu">
