@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+}
+
+:root {
+  --main-color: rgb(32, 129, 226);
+}
+
+/* -----Nav----- */
+
+.nav {
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px 0 20px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.nav-right {
+  display: flex;
+  
+}
+
+.nav-menu {
+  display: flex;
+}
+
+.nav-menu > p{
+  margin-left: 10px;
+  font-size: 18px;
+  color: rgba(4, 17, 29, 0.75);
+}
+
+.nav-menu-icon {
+  margin-left: 10px;
+}
