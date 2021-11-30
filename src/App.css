@@ -33,7 +33,6 @@ p {
 
 .nav-right {
   display: flex;
-  
 }
 
 .nav-menu {
@@ -41,14 +40,13 @@ p {
 }
 
 .nav-right > input {
-  
 }
 .nav-menu {
   display: flex;
   align-items: center;
 }
 
-.nav-menu > p{
+.nav-menu > p {
   margin-left: 40px;
   font-size: 16px;
   color: rgba(4, 1, 29, 0.75);
@@ -86,7 +84,6 @@ p {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  
 }
 
 .home-banner {
@@ -94,15 +91,87 @@ p {
   width: 80%;
 }
 
-.home-banner-left{
+.home-banner-left {
   flex: 1;
+  margin-top: 60px;
+}
 
+.home-banner-left > h2 {
+  font-size: 45px;
+  text-align: left;
+}
+
+.home-banner-left > p {
+  font-size: 24px;
+  text-align: left;
+  margin-top: 20px;
+  
+}
+
+.home-banner-left-learnmore {
+  display: flex;
+ align-items: center;
+ margin-top: 50px;
+}
+
+.home-banner-left-learnmore > p {
+  margin-left: 10px;
+}
+
+.video-icon {
+  color: blue;
 }
 
 .home-banner-right {
   flex: 1;
+  margin-right: 0px;
 }
 
 .home-banner-right-card {
-  width: 80%;
+  width: 90%;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  border-radius: 10px;
+}
+
+.home-banner-right-bottom {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+
+.home-banner-right-bottom-profile {
+  margin-left: 10px;
+}
+
+.home-banner-profile-name {
+  font-weight: bold;
+}
+
+.home-banner-profile-desc {
+  color: blue;
+}
+
+.home-banner-bottons  {
+  margin-top: 30px;
+}
+
+.home-banner-bottons > button {
+  padding: 10px 30px 10px 30px;
+  border-radius: 5px;
+}
+
+.explore-button {
+  background-color: blue;
+  border: none;
+  font-weight: bold;
+  color: white;
+}
+
+.create-button {
+  background: none;
+  margin-left: 10px;
+  border: 2px  solid blue;
+  color: blue;
+  font-weight: bold;
+
 }
