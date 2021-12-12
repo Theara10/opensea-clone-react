@@ -84,6 +84,7 @@ p {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-bottom: 100px;
 }
 
 .home-banner {
@@ -174,4 +175,159 @@ p {
   color: blue;
   font-weight: bold;
 
+}
+
+.notable-drop {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.notable-drop > h3 {
+  font-size: 24px;
+  font-weight: bold ;
+  color: black;
+}
+
+.notable-drop-cards{
+  display: flex;
+  margin-top: 50px;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.notable-drop-card{
+  display: flex;
+  flex-direction: column;
+  
+  height: 600px;
+  width: 380px;
+  margin: 10px;
+  /* background-color: red; */
+  text-align: center;
+  border-radius: 10px;
+}
+
+.notable-drop-card > img {
+  height: 420px;
+  width: 380px;
+  object-fit: cover;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.notable-drop-card-bottom {
+  margin-top: 20px;
+}
+
+.notable-drop-card-bottom > h3 {
+font-size: 20px;
+
+}
+
+.notable-drop-card-bottom > p {
+  font-size: 14px;
+  margin-top: 20px;
+}
+
+.notable-drop-card-bottom > button {
+  margin-top: 30px;
+  background: none;
+  padding: 5px 10px 5px 10px;
+  border-radius: 10px;
+  color: white;
+  border-color: white;
+}
+
+.collections{
+  margin-top: 50px;
+  text-align: center;
+}
+
+.collections > h3 {
+  font-size: 24px;
+}
+
+.collection-container {
+  margin-top: 50px;
+  display: grid ;
+  grid-template-columns: auto auto auto;
+}
+
+.collection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  /* background-color: gray; */
+  border-bottom: 1px solid rgb(229, 232, 235);
+  margin: 0px 20px 0px  20px;
+}
+
+.collection > p {
+  font-weight: bold;
+}
+
+.collection:hover {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border: none;
+  border-radius: 10px;
+}
+
+.collection-middle {
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+  padding-right: 70px;
+}
+
+.collection-middle > img{
+  height: 50px;
+  width: 50px;
+  object-fit: cover;
+  border-radius: 50px;
+}
+
+.collection-middle-text {
+  margin-left: 10px;
+}
+
+.collection-middle-text > p {
+  font-weight: bold;
+}
+
+.collection-middle-balance {
+  display: flex;
+  align-items: center;
+}
+
+.collection-middle-balance >img {
+  height: 15px;
+  width: auto;
+  margin-right: 10px;
+}
+
+.collection-middle-balance > p {
+  color: #a4b0be;
+  font-weight: bold;
+}
+
+.collection-right {
+  color: red;
+}
+
+.collections > button {
+  margin-top: 50px;
+  font-size: 16px;
+
+  padding: 15px;
+  background-color: blue;
+  border: none;
+  color: white;
+  border-radius: 5px;
 }
