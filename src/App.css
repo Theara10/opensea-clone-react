@@ -106,13 +106,12 @@ p {
   font-size: 24px;
   text-align: left;
   margin-top: 20px;
-  
 }
 
 .home-banner-left-learnmore {
   display: flex;
- align-items: center;
- margin-top: 50px;
+  align-items: center;
+  margin-top: 50px;
 }
 
 .home-banner-left-learnmore > p {
@@ -152,7 +151,7 @@ p {
   color: blue;
 }
 
-.home-banner-bottons  {
+.home-banner-bottons {
   margin-top: 30px;
 }
 
@@ -171,10 +170,9 @@ p {
 .create-button {
   background: none;
   margin-left: 10px;
-  border: 2px  solid blue;
+  border: 2px solid blue;
   color: blue;
   font-weight: bold;
-
 }
 
 .notable-drop {
@@ -188,23 +186,22 @@ p {
 
 .notable-drop > h3 {
   font-size: 24px;
-  font-weight: bold ;
+  font-weight: bold;
   color: black;
 }
 
-.notable-drop-cards{
+.notable-drop-cards {
   display: flex;
   margin-top: 50px;
   width: 100%;
   align-items: center;
   justify-content: center;
-  
 }
 
-.notable-drop-card{
+.notable-drop-card {
   display: flex;
   flex-direction: column;
-  
+
   height: 600px;
   width: 380px;
   margin: 10px;
@@ -226,8 +223,7 @@ p {
 }
 
 .notable-drop-card-bottom > h3 {
-font-size: 20px;
-
+  font-size: 20px;
 }
 
 .notable-drop-card-bottom > p {
@@ -244,7 +240,7 @@ font-size: 20px;
   border-color: white;
 }
 
-.collections{
+.collections {
   margin-top: 50px;
   text-align: center;
 }
@@ -255,7 +251,7 @@ font-size: 20px;
 
 .collection-container {
   margin-top: 50px;
-  display: grid ;
+  display: grid;
   grid-template-columns: auto auto auto;
 }
 
@@ -266,7 +262,7 @@ font-size: 20px;
   padding: 15px;
   /* background-color: gray; */
   border-bottom: 1px solid rgb(229, 232, 235);
-  margin: 0px 20px 0px  20px;
+  margin: 0px 20px 0px 20px;
 }
 
 .collection > p {
@@ -286,7 +282,7 @@ font-size: 20px;
   padding-right: 70px;
 }
 
-.collection-middle > img{
+.collection-middle > img {
   height: 50px;
   width: 50px;
   object-fit: cover;
@@ -306,7 +302,7 @@ font-size: 20px;
   align-items: center;
 }
 
-.collection-middle-balance >img {
+.collection-middle-balance > img {
   height: 15px;
   width: auto;
   margin-right: 10px;
@@ -330,4 +326,56 @@ font-size: 20px;
   border: none;
   color: white;
   border-radius: 5px;
+}
+
+/* --------Categorry-------- */
+
+.category {
+  margin-top: 100px;
+}
+
+.categories {
+  margin-top: 50px;
+}
+
+.category-card {
+  height: 200px;
+  width: 100%;
+  background-color: red;
+}
+
+/* -------NFTs-------- */
+
+.nfts {
+  margin-top: 100px;
+  color: black;
+  text-align: center;
+}
+
+.nfts-bottoms {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 100px;
+  padding-right: 100px;
+  width: 80%;
+}
+.nfts-bottom {
+  width: 20%;
+  text-align: center;
+  margin-top: 50px;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding: 10px;
+}
+
+.nfts-bottom > h4 {
+  margin-top: 20px;
+}
+.nfts-bottom > p {
+  margin-top: 10px;
+}
+
+.nfts-icon {
+  font-size: 54px;
 }

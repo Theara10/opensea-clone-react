@@ -1,11 +1,28 @@
-import React from "react";
+import React, { useState } from "react";
 import SlowMotionVideoIcon from "@mui/icons-material/SlowMotionVideo";
+import AccountBalanceWalletIcon from "@mui/icons-material/AccountBalanceWallet";
 import NotableDropCard from "../components/NotableDropCard";
 import CollectionCard from "../components/CollectionCard";
+import Carousel from "react-elastic-carousel";
 
 import collections from "../data/collections.json";
+import { breakpoints } from "@mui/system";
 
 function Home() {
+  const [items, setItems] = useState([
+    { id: 1, title: "item #1" },
+    { id: 2, title: "item #2" },
+    { id: 3, title: "item #3" },
+    { id: 4, title: "item #4" },
+    { id: 5, title: "item #5" },
+  ]);
+
+  const breakPoints = [
+    { width: 1, itemsToShow: 1 },
+    { width: 550, itemsToShow: 2 },
+    { width: 768, itemsToShow: 3 },
+    { width: 1200, itemsToShow: 4 },
+  ];
   return (
     <div className="home">
       <section className="home-banner">
@@ -67,8 +84,55 @@ function Home() {
         <button>Go to Rankings</button>
       </section>
 
-      <section>
-        
+      <section className="category">
+        <h3>Top collection over the last 7 days</h3>
+        <div className="categories">
+          <Carousel breakPoints={breakPoints}>
+            <div className="category-card"></div>
+          </Carousel>
+        </div>
+      </section>
+
+      <section className="nfts">
+        <h3>Create and sell your NFTs</h3>
+        <div className="nfts-bottoms">
+          <div className="nfts-bottom">
+            <AccountBalanceWalletIcon className="nfts-icon" fontSize="32" />
+            <h4>Setup your wallet</h4>
+            <p>
+              Once you’ve set up your wallet of choice, connect it to OpenSea by
+              clicking the wallet icon in the top right corner. Learn about the
+              wallets we support.
+            </p>
+          </div>
+          <div className="nfts-bottom">
+            <AccountBalanceWalletIcon className="nfts-icon" fontSize="32" />
+            <h4>Setup your wallet</h4>
+            <p>
+              Once you’ve set up your wallet of choice, connect it to OpenSea by
+              clicking the wallet icon in the top right corner. Learn about the
+              wallets we support.
+            </p>
+          </div>
+          <div className="nfts-bottom">
+            <AccountBalanceWalletIcon className="nfts-icon" fontSize="32" />
+            <h4>Setup your wallet</h4>
+            <p>
+              Once you’ve set up your wallet of choice, connect it to OpenSea by
+              clicking the wallet icon in the top right corner. Learn about the
+              wallets we support.
+            </p>
+          </div>
+          <div className="nfts-bottom">
+            <AccountBalanceWalletIcon className="nfts-icon" fontSize="32" />
+            <h4>Setup your wallet</h4>
+            <p>
+              Once you’ve set up your wallet of choice, connect it to OpenSea by
+              clicking the wallet icon in the top right corner. Learn about the
+              wallets we support.
+            </p>
+          </div>
+        </div>
       </section>
     </div>
   );
